@@ -11,9 +11,9 @@ namespace MvcApplication.Controllers
         //
         // GET: /Store/
 
-        public ActionResult Index()
+        public string Index()
         {
-            return View();
+            return "store.indez";
         }
         public string Browse(string gente)
         {

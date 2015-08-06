@@ -109,6 +109,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MasterPageController.cs" />
     <Compile Include="Controllers\StoreController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -955,7 +956,6 @@
     <Content Include="paginas\complementos\index.html" />
     <Content Include="paginas\complementos\index2.html" />
     <Content Include="paginas\complementos\starter.html" />
-    <Content Include="paginas\index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -971,9 +971,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="paginas\ViewMasterPage1.Master" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap\css\bootstrap.css.map" />
@@ -1091,6 +1088,12 @@
     <Content Include="paginas\complementos\LICENSE" />
     <Content Include="paginas\complementos\package.json" />
     <Content Include="paginas\complementos\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\_LayoutMaster.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -6,10 +6,10 @@ using System.Web.Mvc;
 
 namespace MvcApplication.Controllers
 {
-    public class HomeController : Controller
+    public class MasterPageController : Controller
     {
         //
-        // GET: /Home/
+        // GET: /MasterPage/
 
         public ActionResult Index()
         {

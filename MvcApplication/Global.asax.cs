@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
+using MvcApplication.Models;
+
 
 namespace MvcApplication
 {
@@ -14,6 +16,7 @@ namespace MvcApplication
     {
         protected void Application_Start()
         {
+            System.Data.Entity.Database.SetInitializer(new Models.SampleData());
             AreaRegistration.RegisterAllAreas();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);

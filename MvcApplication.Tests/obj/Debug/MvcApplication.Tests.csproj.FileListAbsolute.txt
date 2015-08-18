@@ -14,6 +14,7 @@ C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\Syste
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\System.Web.WebPages.dll
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\EntityFramework.dll
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\MvcApplication.pdb
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\Newtonsoft.Json.xml
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\System.Net.Http.Formatting.xml
@@ -25,6 +26,7 @@ C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\Syste
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\System.Web.WebPages.xml
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\EntityFramework.xml
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\es\System.Net.Http.Formatting.resources.dll
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\es\System.Web.Helpers.resources.dll
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\es\System.Web.Http.resources.dll

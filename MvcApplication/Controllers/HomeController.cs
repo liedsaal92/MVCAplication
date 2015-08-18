@@ -18,7 +18,7 @@ namespace MvcApplication.Controllers
         }
         public ActionResult detalles(int id)
         {
-            var album = new album {title="Matisse: " + id };
+            var album = new album {Title="Matisse: " + id };
             return View(album);
         }
 

@@ -9,23 +9,18 @@ namespace MvcApplication.Controllers
 {
     public class StoreController : Controller
     {
-        //
+        
         // GET: /Store/
+        MusicStoreEntities _objEntities = new MusicStoreEntities();
 
         public ActionResult Index()
         {
-            var genres=new List<Genre>
-            {
-            new Genre{name="Disco 1"},
-            new Genre{name="Disco 2"},
-            new Genre{name="Disco 3"},
-            new Genre{name="Disco 4"}
-           };
+            var genres = _objEntities.genres.ToList();
            return View(genres);
         }
         public ActionResult Browse(string genre)
         {
-            var gente = new Genre { name = genre };
+            var gente = new Genre { Name = genre };
             return View(gente);
         }
         public string Details(int id)

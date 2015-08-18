@@ -7,9 +7,14 @@ namespace MvcApplication.Models
 {
     public class album
     {
-        public string  title { get; set; }
-        public Genre genre { get; set; }
-
+        public string  Title { get; set; }
+        public Genre Genre { get; set; }
+        public int albumId { get; set; }
+        public int genreId { get; set; }
+        public int artistId { get; set; }
+        public decimal Price { get; set; }
+        public string albumArtUrl { get; set; }
+        public Artist Artist { get; set; }
     }
     
 }

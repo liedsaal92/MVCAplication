@@ -1,0 +1,15 @@
+﻿@model IEnumerable<MvcApplication.Models.Genre>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/_LayoutMaster.cshtml";
+}
+
+<h2>Index</h2>
+<p>Select from @Model.Count() genres:</p>
+<ul>
+        @foreach (var item in Model)
+        {
+            <li>@item.name</li>
+        }
+</ul>

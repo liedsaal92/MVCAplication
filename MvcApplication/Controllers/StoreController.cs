@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MvcApplication.Models;
 
 namespace MvcApplication.Controllers
 {
@@ -11,14 +12,21 @@ namespace MvcApplication.Controllers
         //
         // GET: /Store/
 
-        public string Index()
+        public ActionResult Index()
         {
-            return "store.indez";
+            var genres=new List<Genre>
+            {
+            new Genre{name="Disco 1"},
+            new Genre{name="Disco 2"},
+            new Genre{name="Disco 3"},
+            new Genre{name="Disco 4"}
+           };
+           return View(genres);
         }
-        public string Browse(string gente)
+        public ActionResult Browse(string genre)
         {
-            string mensaje = HttpUtility.HtmlEncode("store.browse, gente="+gente);
-            return mensaje;
+            var gente = new Genre { name = genre };
+            return View(gente);
         }
         public string Details(int id)
         {

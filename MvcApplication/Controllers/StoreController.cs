@@ -15,7 +15,7 @@ namespace MvcApplication.Controllers
 
         public ActionResult Index()
         {
-            var genres = _objEntities.genres.ToList();
+           var genres = _objEntities.genres.ToList();
            return View(genres);
         }
         public ActionResult Browse(string genre)

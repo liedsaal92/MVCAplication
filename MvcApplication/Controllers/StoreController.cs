@@ -20,13 +20,13 @@ namespace MvcApplication.Controllers
         }
         public ActionResult Browse(string genre)
         {
-            var gente = new Genre { Name = genre };
+            var gente = _objEntities.genres.Include("Albums").Single(C => C.Name == genre);
             return View(gente);
         }
-        public string Details(int id)
+        public ActionResult Details(int id)
         {
-            string mensaje = "store.browse, ID=" + id;            
-            return "hello from store.details"+mensaje;
+            var genre = _objEntities.albums.Find(id);
+            return View(genre);
         }
 
     }

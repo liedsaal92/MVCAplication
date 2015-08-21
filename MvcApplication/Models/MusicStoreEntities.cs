@@ -6,5 +6,7 @@ namespace MvcApplication.Models
     {
         public DbSet<album> albums { get; set; }
         public DbSet<Genre> genres { get; set; }
+
+        public DbSet<Artist> Artists { get; set; }
     }
 }

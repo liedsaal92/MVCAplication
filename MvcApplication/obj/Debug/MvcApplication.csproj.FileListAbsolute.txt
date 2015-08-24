@@ -72,3 +72,8 @@ C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication\bin\es\System.Web.Web
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication\bin\es\System.Web.WebPages.Razor.resources.dll
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication\obj\Debug\MvcApplication.dll
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication\obj\Debug\MvcApplication.pdb
+C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication\bin\Antlr3.Runtime.dll
+C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication\bin\System.Web.Optimization.dll
+C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication\bin\WebGrease.dll
+C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication\bin\Antlr3.Runtime.pdb
+C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication\bin\System.Web.Optimization.xml

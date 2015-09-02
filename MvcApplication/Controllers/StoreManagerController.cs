@@ -14,7 +14,7 @@ namespace MvcApplication.Controllers
         private MusicStoreEntities db = new MusicStoreEntities();
 
         //
-        // GET: /Default1/
+        // GET: /StoreManager/
 
         public ActionResult Index()
         {
@@ -23,20 +23,16 @@ namespace MvcApplication.Controllers
         }
 
         //
-        // GET: /Default1/Details/5
+        // GET: /StoreManager/Details/5
 
-        public ActionResult Details(int id = 0)
+        public ActionResult Details(int id)
         {
             album album = db.albums.Find(id);
-            if (album == null)
-            {
-                return HttpNotFound();
-            }
             return View(album);
         }
 
         //
-        // GET: /Default1/Create
+        // GET: /StoreManager/Create
 
         public ActionResult Create()
         {
@@ -46,7 +42,7 @@ namespace MvcApplication.Controllers
         }
 
         //
-        // POST: /Default1/Create
+        // POST: /StoreManager/Create
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -65,7 +61,7 @@ namespace MvcApplication.Controllers
         }
 
         //
-        // GET: /Default1/Edit/5
+        // GET: /StoreManager/Edit/5
 
         public ActionResult Edit(int id = 0)
         {
@@ -80,7 +76,7 @@ namespace MvcApplication.Controllers
         }
 
         //
-        // POST: /Default1/Edit/5
+        // POST: /StoreManager/Edit/5
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -98,7 +94,7 @@ namespace MvcApplication.Controllers
         }
 
         //
-        // GET: /Default1/Delete/5
+        // GET: /StoreManager/Delete/5
 
         public ActionResult Delete(int id = 0)
         {
@@ -111,7 +107,7 @@ namespace MvcApplication.Controllers
         }
 
         //
-        // POST: /Default1/Delete/5
+        // POST: /StoreManager/Delete/5
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]

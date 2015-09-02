@@ -8,5 +8,8 @@ namespace MvcApplication.Models
         public DbSet<Genre> genres { get; set; }
 
         public DbSet<Artist> Artists { get; set; }
+        public DbSet<Cart> Carts { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
     }
 }

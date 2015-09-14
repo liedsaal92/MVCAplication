@@ -1,4 +1,3 @@
-C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\obj\Debug\MvcApplication.Tests.csprojResolveAssemblyReference.cache
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\MvcApplication.Tests.dll.config
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\MvcApplication.Tests.dll
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\MvcApplication.Tests.pdb
@@ -37,5 +36,8 @@ C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\es\Sy
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\es\System.Web.WebPages.resources.dll
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\obj\Debug\MvcApplication.Tests.csprojResolveAssemblyReference.cache
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\obj\Debug\MvcApplication.Tests.dll
 C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\obj\Debug\MvcApplication.Tests.pdb
+C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\MvcApplication.Tests.dll.CodeAnalysisLog.xml
+C:\Users\UPS\Documents\GitHub\MVCAplication\MvcApplication.Tests\bin\Debug\MvcApplication.Tests.dll.lastcodeanalysissucceeded

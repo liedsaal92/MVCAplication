@@ -28,6 +28,13 @@ namespace MvcApplication.Controllers
             var genre = _objEntities.albums.Find(id);
             return View(genre);
         }
-
+        //
+        // GET: /Store/GenreMenu
+        [ChildActionOnly]
+        public ActionResult GenreMenu()
+        {
+            var genres = _objEntities.genres.ToList();
+            return PartialView(genres);
+        }
     }
 }

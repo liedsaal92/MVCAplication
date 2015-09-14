@@ -5,15 +5,17 @@
     Layout = "~/Views/_LayoutMaster.cshtml";
 }
 
-<h2>Browse: @Model.Name</h2>
-<ul>
+<div class="genre">
+ <h3><em>@Model.Name</em> Albums</h3>
+<ul id="album-list">
     @foreach (var album in Model.Albums)
  {
         <li>
-            <a href="@Url.Action("Details", new { id = album.albumId })">
-                @*<img alt="@album.Title" src="@album.albumArtUrl" />*@
+            <a href="@Url.Action( "Details" , new { id = album.albumId })">
+                <img alt="@album.Title" src="@album.albumArtUrl" />
                 <span>@album.Title</span>
             </a>
         </li>
  }
 </ul>
+</div>
